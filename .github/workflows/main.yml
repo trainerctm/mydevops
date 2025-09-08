@@ -2,7 +2,7 @@ name:  Nulti-Trigger Workflow
 
 on:
   schedule:
-    -  cron:  '*/2 * * * *'
+    -  cron:  '*/60 * * * *'
   workflow_dispatch:
     inputs:
       chosen-os:
